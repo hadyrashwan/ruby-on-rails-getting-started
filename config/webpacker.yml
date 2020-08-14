@@ -71,10 +71,9 @@ development:
     quiet: false
     pretty: false
     headers:
-      'Access-Control-Allow-Origin': '*'
+      "Access-Control-Allow-Origin": "*"
     watch_options:
-      ignored: '**/node_modules/**'
-
+      ignored: "**/node_modules/**"
 
 test:
   <<: *default
@@ -86,11 +85,11 @@ test:
 production:
   <<: *default
 
-  # Production depends on precompilation of packs prior to booting for performance.
-  compile: false
+  # Production depends on precompilation of packs prior to booting for performance. #  disabled_for_cloud_run using rake assets:precompile in the future and passing the secert key in the docker file
 
-  # Extract and emit a css file
-  extract_css: true
+  compile: true
+  # Extract and emit a css file  # disabled_for_cloud_run
+  extract_css: false
 
-  # Cache manifest.json for performance
-  cache_manifest: true
+  # Cache manifest.json for performance #disabled_for_cloud_run
+  cache_manifest: false
