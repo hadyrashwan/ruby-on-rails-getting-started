@@ -2,7 +2,7 @@
 
 The project is based on the official [Getting Started](https://guides.rubyonrails.org/getting_started.html) from the Ruby On Rails team. I will write a detailed post on my [blog](https://dev.to/hadyrashwan) very soon.
 
-The project used the following:
+## The project used the following:
 
 * Ruby version: 2.7.0
 
@@ -10,7 +10,7 @@ The project used the following:
 
 * Database : Mysql 
 
-Deployment on GCP as serverless :
+## Deployment on GCP as serverless :
 
 > The project uses Google Cloud Run as a serverless backend. 
 
@@ -32,7 +32,7 @@ Deployment on GCP as serverless :
 *  In my test the response took over 20 seconds coming from a cold start and  254 ms afterwards. 
 * I disabled the webpack caching mechanism and used environment variables instead of the [secret manger](https://cloud.google.com/secret-manager/docs/creating-and-accessing-secrets#create_a_secret) for the demo purposes.
 
-Running on local:
+## Running on local:
 
 * Setup Mysql environment.
 * Create A new database called `ruby_blog_mysql_development`.
