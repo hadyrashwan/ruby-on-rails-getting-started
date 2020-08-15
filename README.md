@@ -37,8 +37,8 @@ The project is based on the official [Getting Started](https://guides.rubyonrail
 * Setup Mysql environment.
 * Create A new database called `ruby_blog_mysql_development`.
 * Clone the project.
-* Change the password in `database.yml` line 18 to your mysql password.
 * Run `cd ruby-on-rails-getting-started/`.
+* Change the password in `database.yml` line 18 to your mysql password.
 * Run `gem install bundler && bundle install`.
 * Run `bundle install`.
 * Run `rails db:migrate`.
