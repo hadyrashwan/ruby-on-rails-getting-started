@@ -10,9 +10,8 @@ The project is based on the official [Getting Started](https://guides.rubyonrail
 
 * Database : Mysql 
 
-## [Try out the deployed version](https://ruby-on-rails-djrkfnufna-uc.a.run.app/).
 
-## Deployment on GCP as serverless :
+## Deployment on GCP as serverless : ([try out the hosted version](https://ruby-on-rails-djrkfnufna-uc.a.run.app/))
 
 > The project uses Google Cloud Run as a serverless backend. 
 
