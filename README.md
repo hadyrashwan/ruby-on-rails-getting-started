@@ -11,9 +11,9 @@ The project is based on the official [Getting Started](https://guides.rubyonrail
 * Database : Mysql 
 
 
-## Deployment on GCP as serverless : ([try out the hosted version](https://ruby-on-rails-djrkfnufna-uc.a.run.app/))
+## Deployment on GCP as serverless : 
 
-> The project uses Google Cloud Run as a serverless backend. 
+> The project uses Google Cloud Run as a serverless backend. [Try out the hosted version](https://ruby-on-rails-djrkfnufna-uc.a.run.app/).
 
 * [Setup Google Cloud SQL for Mysql](https://cloud.google.com/sql/docs/mysql/create-instance).
 * [Configuring private IP for the database](https://cloud.google.com/sql/docs/mysql/configure-private-ip) .
