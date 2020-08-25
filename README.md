@@ -1,6 +1,6 @@
 # Ruby On Rails Getting Started on GCP
 
-The project is based on the official [Getting Started](https://guides.rubyonrails.org/getting_started.html) from the Ruby On Rails team. I will write a detailed post on my [blog](https://dev.to/hadyrashwan) very soon.
+The project is based on the official [Getting Started](https://guides.rubyonrails.org/getting_started.html) from the Ruby On Rails team. You can follow this [tutorial](https://dev.to/hadyrashwan/ruby-on-rails-with-google-cloud-run-4hb) to deploy it.
 
 ## The project used the following:
 
